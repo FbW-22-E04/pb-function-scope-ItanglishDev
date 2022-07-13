@@ -21,3 +21,15 @@ function printfavouriteFruit() {
   console.log(favFruit);
 }
 printfavouriteFruit();
+
+let result = 0;
+function exponent(b, c) {
+  for (let i = 0; i < c; i++) {
+    result += b * b;
+    console.log(result);
+  }
+}
+
+exponent(3, 5);
+
+//Yes it is possible, but it's value remains as it was initially outside the function
