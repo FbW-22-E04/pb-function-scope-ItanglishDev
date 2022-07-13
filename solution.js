@@ -14,3 +14,10 @@ function acceptTwoNumbers(numOne, numTwo) {
 }
 
 acceptTwoNumbers(3, 5);
+
+const favFruit = "banana";
+function printfavouriteFruit() {
+  let favFruit = "grapes";
+  console.log(favFruit);
+}
+printfavouriteFruit();
